@@ -26,9 +26,7 @@ header nav {
 
 }
 
-.fa-bars {
-    display: none !important;
-}
+
 
 header nav ul {
     display: flex;
@@ -561,6 +559,259 @@ header nav span p {
 
 
 
+.bars {
+    display: none;
+    /* display: flex; */
+
+    justify-content: center;
+    cursor: pointer;
+
+
+}
+
+
+.bars:hover .line2 {
+    /* opacity: 0; */
+    margin: 0;
+
+    width: 0;
+
+}
+
+
+.bars:hover .line3 {
+    transform: rotate(-45deg);
+    width: 25px;
+    position: relative;
+    position: relative;
+    top: -12px;
+
+}
+
+.bars:hover .line1 {
+    transform: rotate(45deg);
+
+    bottom: 7px;
+    position: relative;
+    margin: 0;
+    bottom: 6px;
+    width: 25px;
+}
+
+
+
+.line1 {
+    height: 3px;
+    width: 20px;
+    transition: 1s;
+    margin-bottom: 5px;
+}
+
+.line2 {
+    height: 3px;
+    width: 40px;
+    transition: 1s;
+    margin-bottom: 5px;
+}
+
+.line3 {
+    height: 3px;
+    width: 20px;
+    transition: 1s;
+}
+
+
+
+
+.video-frame a {
+
+
+
+
+    position: relative;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    0% {
+        height: 80px;
+        width: 80px;
+
+
+    }
+
+    25% {
+
+        height: 85px;
+        width: 85px;
+    }
+
+    50% {
+        height: 90px;
+        width: 90px;
+    }
+
+    75% {
+
+
+        height: 85px;
+        width: 85px;
+    }
+
+    100% {
+        height: 80px;
+        width: 80px;
+    }
+}
+
+
+
+
+
+.img-sec5 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.img-sec5 {
+    height: 250px;
+    width: 340px;
+
+
+
+}
+
+
+.child-body1-sec5 {
+    height: 650px;
+    width: 370px;
+    border-radius: 10px;
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    padding: 20px 15px;
+
+}
+
+#section5-page1 {
+    height: fit-content;
+    padding: 50px 0px;
+    justify-content: space-between;
+
+
+
+
+}
+
+.button-sec5 {
+    width: 200px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    margin-left: 60px;
+}
+
+
+
+
+
+
+
+.body1-sec5-pg1 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 10px 20px;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: .25px;
+}
+
+.body2-sec5-pg1 {
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+    gap: 30px;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: .25px;
+}
+
+.head-sec5-pg1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-family: Poppins, sans-serif;
+}
+
+
+.head-sec5-pg1 span {
+    color: rgb(238, 98, 107);
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+
+
+.head-sec5-pg1 h3 {
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(30, 30, 30);
+    text-align: center;
+    width: 550px;
+
+}
+
+
+
+.head-child-sec5 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 340px;
+    font-weight: 700;
+
+
+}
+
+
+
+.mid-sec5-pg1 {
+    font-weight: 700;
+    font-size: 19px;
+    cursor: pointer;
+
+}
+
+
+
+
+
+
+.p-child-sec5-pg1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: fit-content;
+    align-items: center;
+    gap: 20px;
+    font-size: 15px;
+    color: #4a4a4a;
+}
+
 
 /* Responsive starts */
 
@@ -735,6 +986,41 @@ header nav span p {
     }
 
 
+    .img-sec5 {
+        height: 210px;
+        width: 280px;
+
+
+
+    }
+
+
+    .child-body1-sec5 {
+        height: 650px;
+        width: 300px;
+        border-radius: 10px;
+        background-color: #fafafa;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: space-between;
+        padding: 20px 15px;
+    }
+
+
+
+    .head-child-sec5 {
+        width: 270px;
+    }
+
+    .button-sec5 {
+
+        margin-left: 24px;
+    }
+
+        .p-child-sec5-pg1 {
+            gap: 18px;
+        }
 
 }
 
@@ -939,6 +1225,28 @@ header nav span p {
     }
 
 
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 
@@ -950,7 +1258,7 @@ header nav span p {
         display: none;
     }
 
-    .fa-bars {
+    .bars {
         display: block !important;
         font-size: 27px;
     }
@@ -1087,7 +1395,7 @@ header nav span p {
 
     .sec4-text2 {
         width: 340px;
-    
+
     }
 
 
