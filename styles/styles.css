@@ -11,13 +11,15 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-
+    position: relative;
 
 
 }
 
 
 header nav {
+
+
 
     height: 130px;
     width: 1200px;
@@ -59,6 +61,52 @@ header nav a:hover {
     cursor: pointer;
 
 }
+
+
+
+.mother-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    height: 5px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    display: none;
+}
+
+.menu {
+    height: 210px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    justify-content: center;
+    bottom: -210px;
+    background-color: white;
+
+}
+
+
+.menu a {
+    width: 320px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.146);
+    border-radius: 0;
+    color: #1e1e1e;
+    height: 52px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    line-height: 50px;
+    height: 50px;
+    font-weight: 400;
+    font-family: Poppins, sans-serif;
+
+}
+
+
 
 header nav span {
     width: 200px;
@@ -1233,7 +1281,7 @@ textarea {
 
 /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ CONTACT @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
 
-#form-info-contact  {
+#form-info-contact {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -1244,7 +1292,7 @@ textarea {
 
 .top-map {
     display: flex;
-   
+
 }
 
 
@@ -2105,70 +2153,74 @@ textarea {
     }
 
 
+    #details-sec2 .pic-details {
+
+        width: 570px;
+
+
+    }
+
+
+    .txt-details {
+        width: 570px;
+
+    }
+
+
+    .info-details {
+
+        width: 570px;
+
+    }
+
+
+
+
+    #details-sec2 .first-details {
+        width: 570px;
+
+    }
+
+
+    .info2-details>div {
+        width: 570px;
+
+
+    }
+
+
+
+
+    .top-map {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+
+    .map-contact {
+        width: 570px;
+        margin-right: 0px;
+
+    }
+
+
+    #form-info-contact .div2-contact {
+        width: 570px;
+    }
+
+    .div2-contact p {
+        width: 570px;
+
+
+
+    }
+
+    .mother-menu {
+        display: flex;
+    }
+
 }
 
-
-#details-sec2 .pic-details {
-
-    width: 570px;
-
-
-}
-
-
-.txt-details {
-    width: 570px;
-
-}
-
-
-.info-details {
-
-    width: 570px;
-
-}
-
-
-
-
-#details-sec2 .first-details {
-    width: 570px;
-
-}
-
-
-.info2-details>div {
-    width: 570px;
-
-
-}
-
-
-
-
-.top-map {
-    flex-direction: column;
-    gap: 50px;
-}
-
-
-.map-contact {
-    width: 570px;
-    margin-right: 0px;
-
-}
-
-
-#form-info-contact .div2-contact {
-    width: 570px;
-}
-
-.div2-contact p {
-    width: 570px;
-
-
-
-}
 
 
 
