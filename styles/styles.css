@@ -95,7 +95,6 @@ header nav a:hover {
     border-bottom: 1px solid rgba(0, 0, 0, 0.146);
     border-radius: 0;
     color: #1e1e1e;
-    height: 52px;
     display: flex;
     justify-content: center;
     background-color: white;
@@ -2216,7 +2215,7 @@ textarea {
     }
 
     .mother-menu {
-        display: flex;
+        display: none;
     }
 
 }
